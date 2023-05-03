@@ -1,0 +1,94 @@
+﻿@model MyProj_Models.ViewModels.HomeVM
+
+<div class="container">
+
+    <div class="icon-bar">
+        <!-- trigger modal -->
+        <a href="#" class="sticky-info-bar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <i class="fa-solid fa-circle-info"></i>
+        </a>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-primary" id="staticBackdropLabel">Information</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="text-primary">Website Overview:</h5>
+
+                    <p><i>*This website is inteded to serve as a showcase application for job employers.</i></p>
+
+                    <ul>
+                        <li>Followings are the User Account that exists by default (Password for both accounts: <i class="text-info"><b>Temp1234*</b></i>):
+                            <ul>
+                                <li>Admin User &nbsp; &nbsp; <i class="text-info"><b>admin@gmail.com</b></i></li>
+                                <li>Customer User &nbsp; &nbsp; <i class="text-info"><b>user@gmail.com</b></i></li>
+                            </ul>
+                        </li>
+                        <li>You can create new accounts as you wish! If you prefer to create Admin accounts please login using the above given Admin account and navigate to Create Admin User inside Content Management. </li>
+                    </ul>
+                    <h5 class="text-primary">How to use the website:</h5>
+                    <ul>
+                        <li>User can place inquiry after adding items to cart.</li>
+                        <li>Admin user can create / manage the content of the website.</li>
+                        <li>If you wish to test payment for submitting order, please use the following card information.
+                            <ul>
+                                <li>Card Number - <i class="text-info"><b>4111 1111 1111 1111</b></i></li>
+                                <li>Expiration Date - <i class="text-info"><b>02 / 28</b></i></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-center">
+        <button class="btn btn-dark filter-button" data-filter="all">All</button>
+        @foreach (var obj in Model.Categories)
+        {
+            <button class="btn btn-outline-secondary filter-button" data-filter="@obj.Name.Replace(' ', '_')">
+                @obj.Name
+            </button>
+        }
+    </div>
+    <br />
+    <div class="row">
+        @foreach (var prod in Model.Products)
+        {
+            //display all product
+            <partial name="_IndividualProductCard" model="prod" />
+        }
+    </div>
+</div>
+
+@section Scripts{
+
+<script>
+
+    $(document).ready(function(){
+        $(".filter-button").click(function(){
+            var value = $(this).attr('data-filter');
+            if(value == 'all')
+            {
+                $('.filter').show('1000');
+            }
+            else
+            {
+                $(".filter").not('.'+value).hide('3000');
+                $('.filter').filter('.'+value).show('3000');
+            }
+        });
+    });
+
+</script>
+}
+

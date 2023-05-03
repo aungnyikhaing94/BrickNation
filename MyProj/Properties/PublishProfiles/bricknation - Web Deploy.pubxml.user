@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAy7jz3v7SsEyUc1yUfVzoJwAAAAACAAAAAAAQZgAAAAEAACAAAACAMS+WWQzqSG4WAjAzhSEhv9pxikGEzKhYdu4051NxtgAAAAAOgAAAAAIAACAAAABiSOuT4/O1I6jQS8Acq/rnta3WKm+BVCKlY4lWh/fz2IAAAAAkda8DT7dESfiA2/iEFMzHZd1ozo0AmBz8Xhck8sT61UqpYsC7I5xzvKc4OfCOr4JtUMxpBV9/aIoGTXWr7fHEnV19tLItO6juxEh4ko91P5cpTnpGqkcKzGBcIAgESTq9+KXgztuvUlVdx4D8C1ZY9E20JFUsHGHYTRDDkUfi4kAAAACmbwfNPENtMvbSUcJy+KGHGX2NZsiboXoqOc++Qqo2gGjU6FbgwklpLhICzhY6zZ0mDy4kZr1T5mZOPC8h0dKT</EncryptedPassword>
+    <History>True|2023-04-25T05:10:18.3021794Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:bricknation-dbserver.database.windows.net,1433%3bInitial Catalog=bricknation_db%3bUser Id=adminuser%40bricknation-dbserver%3bPassword=Akk%4029042017</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

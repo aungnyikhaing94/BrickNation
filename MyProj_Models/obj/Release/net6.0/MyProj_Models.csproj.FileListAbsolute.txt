@@ -1,0 +1,12 @@
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\bin\Release\net6.0\MyProj_Models.deps.json
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\bin\Release\net6.0\MyProj_Models.dll
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\bin\Release\net6.0\MyProj_Models.pdb
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\MyProj_Models.csproj.AssemblyReference.cache
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\MyProj_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\MyProj_Models.AssemblyInfoInputs.cache
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\MyProj_Models.AssemblyInfo.cs
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\MyProj_Models.csproj.CoreCompileInputs.cache
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\MyProj_Models.dll
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\refint\MyProj_Models.dll
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\MyProj_Models.pdb
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_Models\obj\Release\net6.0\ref\MyProj_Models.dll

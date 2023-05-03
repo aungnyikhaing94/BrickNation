@@ -1,0 +1,17 @@
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\bin\Release\net6.0\MyProj_DataAccess.deps.json
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\bin\Release\net6.0\MyProj_DataAccess.dll
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\bin\Release\net6.0\MyProj_DataAccess.pdb
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\bin\Release\net6.0\MyProj_Models.dll
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\bin\Release\net6.0\MyProj_Utility.dll
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\bin\Release\net6.0\MyProj_Models.pdb
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\bin\Release\net6.0\MyProj_Utility.pdb
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\MyProj_DataAccess.csproj.AssemblyReference.cache
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\MyProj_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\MyProj_DataAccess.AssemblyInfoInputs.cache
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\MyProj_DataAccess.AssemblyInfo.cs
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\MyProj_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\MyProj_DataAccess.csproj.CopyComplete
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\MyProj_DataAccess.dll
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\refint\MyProj_DataAccess.dll
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\MyProj_DataAccess.pdb
+C:\Users\Ank\source\repos\ShoppingCartProj\MyProj_DataAccess\obj\Release\net6.0\ref\MyProj_DataAccess.dll
